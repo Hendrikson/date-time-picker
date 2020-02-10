@@ -62,16 +62,16 @@
     <div *ngIf="showControlButtons" class="owl-dt-container-buttons owl-dt-container-row">
         <button class="owl-dt-control owl-dt-control-button owl-dt-container-control-button"
                 type="button" tabindex="0"
-                (click)="onCancelClicked($event)">
+                (click)="onSetClicked($event)">
             <span class="owl-dt-control-content owl-dt-control-button-content" tabindex="-1">
-                {{cancelLabel}}
+                {{setLabel}}
             </span>
         </button>
         <button class="owl-dt-control owl-dt-control-button owl-dt-container-control-button"
                 type="button" tabindex="0"
-                (click)="onSetClicked($event)">
+                (click)="onCancelClicked($event)">
             <span class="owl-dt-control-content owl-dt-control-button-content" tabindex="-1">
-                {{setLabel}}
+                {{cancelLabel}}
             </span>
         </button>
     </div>
